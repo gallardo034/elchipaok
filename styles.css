@@ -80,17 +80,21 @@ iframe {
 
 .brand-mark {
   display: grid;
-  width: 46px;
-  height: 46px;
+  width: 54px;
+  height: 54px;
   place-items: center;
   flex: 0 0 auto;
   border: 1.5px solid var(--ink);
   border-radius: 50%;
-  background: var(--yellow);
-  color: var(--ink);
-  font-weight: 800;
-  letter-spacing: 0;
+  overflow: hidden;
+  background: var(--paper);
   box-shadow: 4px 4px 0 var(--ink);
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .brand strong,
@@ -552,8 +556,7 @@ li {
 
 .footer .brand-mark {
   border-color: white;
-  background: var(--orange);
-  color: white;
+  background: white;
   box-shadow: 4px 4px 0 white;
 }
 
@@ -671,8 +674,8 @@ li {
   }
 
   .brand-mark {
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
     box-shadow: 4px 4px 0 var(--ink);
   }
 
